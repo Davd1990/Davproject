@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "oci" {
-  region              = "us-east-ashburn"
+  region              = "us-ashburn-1"
   auth                = "SecurityToken"
   config_file_profile = "learn-terraform"
 }
