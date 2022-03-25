@@ -16,3 +16,8 @@ resource "oci_core_vcn" "internal" {
   compartment_id = "ocid1.tenancy.oc1..aaaaaaaaj7ganhfkbjklzu7gtu5qmhnfhaogn6r3nu6eh5rxzybeeu6d6wva"
   display_name   = "My internal VCN"
 }
+
+
+/yes new changes/
+
+resource "oci_instance"
